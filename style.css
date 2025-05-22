@@ -1,0 +1,229 @@
+
+body{
+    font-size: 14px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bg1{
+    background: rgb(30, 31, 41);
+    
+
+}
+bg1 i{
+    color: red;
+}
+.bg1 i{
+    color: red;
+}
+.bg1 li:hover{
+    color: red;
+}
+header{
+    background:#15161d;
+    border-bottom: 3px solid red;
+}
+.w20{
+    width: 150px;
+    border-radius: 25px 0 0 25px;
+}
+.w10{
+    border-radius: 0px 0 0 0px;
+    width: 340px;
+}
+.w15{
+    border-radius: 0 25px 25px 0;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 16px;
+    padding: 10px 20px;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: red;
+    left: 0;
+    top: 100%;
+    transform: scale(0,1);
+    transition: 0.9s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    transform: scale(1,1);
+    color: red;
+}
+.shop{
+    background: lightgray;
+    overflow: hidden;
+    position: relative;
+}
+.shop img{
+    transition: 0.9s;
+
+}
+.shop img:hover{
+transform: scale(1.2);
+}
+.shop::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.643);
+    content: '';
+    left:-50%;
+    top: 0;
+    transform: skew(-45deg);
+}
+.shop-c{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: #fff;
+    z-index: 999;
+}
+.ab{
+    position: relative;
+}
+.ab li{
+position: relative;
+}
+.ab li:hover {
+    border-bottom:1 px solid red;
+    color: red;
+}
+.product{
+    border: 1px solid #999;
+    text-align: center;
+    position: relative;
+}
+.product-category{
+text-transform: uppercase;
+font-size: 12px;
+  color: #8D99AE;
+}
+.product-name{
+    text-transform: uppercase;
+  font-size: 14px;
+}
+.product-name a{
+    color: #000;
+    text-decoration: none;
+}
+.product-price{
+    color: red;
+    font-size: 18px;
+}
+.product-rating{
+    color: red;
+}
+.product-btn{
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+    border: 1px solid red;
+}
+.product-body{
+    position: relative;
+    background: white;
+    z-index: 999;
+}
+.product-btn{
+    
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    z-index: -1;
+    transition: 0.9s;
+}
+.product:hover .product-btn{
+    bottom: -50px;
+}
+.product:hover{
+    border: 1px solid red;
+}
+.btn1{
+    position: absolute;
+    top: 10px;
+    right:10px ;
+    padding: 0 10px;
+    border:2px solid red;
+}
+.btn2{
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    border: 1px solid red;
+    background: #fff;
+}
+.btn5{
+    
+    background: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px 25px 25px 25px;
+}
+.countdown{
+    background: url(http://sangalotech.com./p1/img/hotdeal.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.btn3{
+    background: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.countdown li{
+    background: red;
+    border-radius: 50%;
+    padding: 30px;
+    
+}
+.te{
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+}
+.w25{
+    border-radius: 25px 0 0 25px;
+}
+.btn4{
+    background: red;
+    border: 2px solid red;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    row-gap: 10px;
+}
+.i i{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+footer{
+    border-top: 3px solid red;
+    background: #191919;
+}
+footer i{
+    color: red;
+}
+footer h3{
+    font-weight: bold;
+    
+}
+footer li:hover{
+    color: red;
+}
+.bottom{
+    background:black;
+}
+.bottom i{
+    z-index: 999;
+}
